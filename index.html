@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uzair - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div><a>UZAIR</a></div>
+                <div>                
+                    <ul>
+                        <li><a href="/">HOME</a></li>
+                        <li><a href="/">ABOUT ME</a></li>
+                        <li><a href="/">PROJECTS</a></li>
+                        <li><a href="/">SERVICES</a></li>
+                        <li><a href="/">CONTACT</a></li>
+                    </ul>
+                    <button><a href="/">LETS' TALK</a></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="left">
+                <span>UZAIR BIN ASIF</span>
+                <h1>hay! i'm uzair</h1>
+                <h2>i'm a </h2>
+                <span id="element"></span>
+                <p>I’m an 18 year old student of panaversity, GIAIC. I have the Ability to design mobile first Pixel Perfect Websites. Currently learning modern python with google colab and chainlit at GIAIC.</p>
+                <div></div>
+            </div>
+            <div class="right"><img src="/assets/image.png" alt="image here"></div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['designer', 'developer'],
+            typeSpeed: 50, // Typing speed in milliseconds
+            backSpeed: 30, // Backspacing speed
+            loop: true
+        });
+        window.addEventListener("scroll", () => {
+        const nav = document.querySelector("nav");
+        if (window.scrollY > 50) {
+            nav.classList.add("scrolled");
+        } else {
+            nav.classList.remove("scrolled");
+        }
+        });
+    </script>
+</body>
+</html>
