@@ -703,7 +703,44 @@ main {
     line-height: 1.4;
 }
 
+.sixth-sec {
+    padding-top: 100px;
+}
 
+.container-6 {
+    width: 85vw;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-6 > :first-child {
+    padding: 0px 465px;
+}
+
+.container-6 > :first-child > span {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: #0788FF33;
+    border-radius: 4px;
+    padding: 5px 12px;
+}
+
+.container-6 > :first-child > h2 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.container-6 > :first-child > h2 > span {
+    color: #0788ff;
+}
+
+.container-6 > :last-child {
+    padding: 0px 258px;
+}
 
     /* @media (max-width: 1400px) {
     .container {
