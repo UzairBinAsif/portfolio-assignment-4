@@ -155,6 +155,12 @@ main {
     font-weight: bold;
 }
 
+.typed-cursor {
+    font-size: 70px;
+    color: #0788ff;
+    font-weight: bold;
+  }
+
 .left > p {
     margin-top: 30px;
     margin-bottom: 16px;
@@ -217,6 +223,7 @@ main {
 .hero-icons > :nth-child(2) {
     background-color: #000;
 }
+
 .hero-icons > :nth-child(3) {
     background-color: #1275b1;
 }
@@ -225,6 +232,292 @@ main {
     display: flex;
     padding-top: 15px;
 }
+
+.first-sec {
+    padding-bottom: 45px;
+}
+
+.hor-bar {
+    background: rgba(7, 136, 255, 0.1);
+    padding: 24px 0px;
+}
+
+.hor-bar > div {
+    width: 85vw;
+    height: 90px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+.hor-bar > div span {
+    width: 270px;
+    padding: 0px 25px;
+}
+
+#next {
+    filter: invert();
+}
+
+.container-2 {
+    width: 85vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#effect-1 {
+    position: relative;
+    right: 122px;
+    bottom: 270px;
+    animation: rotate 40s linear infinite;
+}
+
+#effect-2 {
+    position: relative;
+    left: 774px;
+    bottom: 826px;
+    animation: -rotate 40s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes -rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.left-2 {
+    width: 40%;
+    height: 644px;
+}
+
+.left-2 > :first-child {
+    background: linear-gradient(180deg,rgba(29, 50, 70, 1) 0%, rgba(29, 50, 70, 1) 100%);
+    border-radius: 30px;
+    height: 644px;
+    z-index: 1;
+    position: relative;
+}
+
+.second-sec {
+    padding: 100px 0px;
+}
+
+.right-2 {
+    color: #fff;
+    margin-top: 48px;
+    padding: 0px 68px;
+    height: 100%;
+    width: 35%;
+}
+
+.right-2 > :first-child {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: #0788FF33;
+    border-radius: 4px;
+    padding: 5px 12px;
+}
+
+.right-2 > h2 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+.right-2 > h2 > span {
+    color: #0788ff;
+}
+
+.right-2 > p {
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 2px;
+    line-height: 1.6;
+}
+
+.right-2 > div > div {
+    /* height: 117px; */
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.right-2 > div {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+
+.right-2 > div > :nth-child(1) {
+    width: 112px;
+}
+
+.right-2 > div > :nth-child(2) {
+    width: 125px;
+    margin-left: 10px;
+}
+
+.right-2 > div > :nth-child(3) {
+    width: 121px;
+    margin-left: 10px;
+}
+
+.right-2 > div > div > h3 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.right-2 > div > div > label {
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.right-2 > button {
+    align-items: center;
+    background-color: #0788ff;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-weight: 500;
+    justify-content: center;
+    text-transform: uppercase;
+    border: 2px solid #0788ff;
+    border-radius: 40px;
+    padding: 13px 30px;
+    transition: 0.35s;
+}
+
+.right-2 > button > a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.right-2 > button:hover {
+    background-color: #000;
+    border-color: #fff;
+}
+
+.btn-2 {
+    padding: 20px 30px !important;
+}
+
+.third-sec {
+    background: rgba(7, 136, 255, .1);
+    padding: 100px 0px;
+}
+
+.container-3 {
+    color: #fff;
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.container-3 > :first-child {
+    margin-bottom: 45px;
+}
+
+.container-3 > :first-child > :first-child {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: #0788FF33;
+    border-radius: 4px;
+    padding: 5px 12px;
+}
+
+.container-3 > :first-child > h2 {
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.container-3 > :last-child {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 40px;
+    width: 92vw;
+}
+
+.container-3 > :last-child::-webkit-scrollbar {
+    height: 8px;
+}
+
+.container-3 > :last-child::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg,rgba(7, 136, 255, 1) 0%, rgba(160, 7, 255, 1) 100%);
+    border-radius: 4px;
+}
+
+.container-3 > :last-child > div {
+    min-width: 392px;
+    height: 375px;
+    background-color: #fff;
+    padding: 14px;
+    margin: 0px 12px;
+    border-radius: 10px;
+}
+
+.card > :first-child {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card > :first-child > img {
+    max-width: 100%;
+    border-radius: 8px;
+    vertical-align: center;
+    transition: all .35s ease-in-out;
+}
+
+.card > :last-child {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5px 0px 5px;
+}
+
+.card > :last-child > div > h5 {
+    color: #040c16;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.card > :last-child > div > span {
+    color: #707476;
+}
+
+.btn-3 {
+    height: 50px !important;
+    width: 50px !important;
+    padding: 0 !important;
+    border: 2px solid #000 !important;
+}
+
+.btn-3 > i {
+    font-size: 15px;
+}
+
 /* @media (max-width: 1400px) {
     .container {
         max-width: 1320px;
