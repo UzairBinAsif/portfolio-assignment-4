@@ -559,19 +559,19 @@ main {
 }
 
 #card-2-img-1 {
-    background-image: url("/assets/service-01.jpg");
+    background-image: url("./assets/service-01.jpg");
 }
 
 #card-2-img-2 {
-    background-image: url("/assets/service-02.jpg");
+    background-image: url("./assets/service-02.jpg");
 }
 
 #card-2-img-3 {
-    background-image: url("/assets/service-03.jpg");
+    background-image: url("./assets/service-03.jpg");
 }
 
 #card-2-img-4 {
-    background-image: url("/assets/service-04.jpg");
+    background-image: url("./assets/service-04.jpg");
 }
 
 .card-2 > div {
