@@ -15,6 +15,11 @@
         <nav>
             <div class="container">
                 <div><a>UZAIR</a></div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <div>                
                     <ul>
                         <li><a href="#">HOME</a></li>
@@ -36,9 +41,9 @@
                     <h1>hay! i'm uzair</h1>
                     <h2>i'm a de</h2>
                     <span id="element"></span>
-                    <p>I’m an 18 year old student of panaversity, GIAIC. I have the Ability to design mobile first Pixel Perfect Websites. Currently learning modern python with google colab and chainlit at GIAIC.</p>
+                    <p>I’m an 18 year old student of panaversity, GIAIC. I have the Ability to design mobile first Pixel Perfect Websites. Currently learning Agentic AI with OpenAI Agents SDK & modern Python at GIAIC.</p>
                     <div>
-                        <button class="in-touch-btn">
+                        <button class="in-touch-btn btn-1">
                             <a target="_blank" href="https://www.linkedin.com/in/uzair-bin-asif-a6782529a/">get in touch</a>
                             <i class="fa-solid fa-right-long"></i>
                         </button>
@@ -66,14 +71,14 @@
         <section class="second-sec" id="about">
             <div class="container-2">
                 <div class="left-2">
-                    <img src="./assets/image.png" alt="">
+                    <img src="./assets/image.png" alt="my image">
                     <img src="./assets/effect-1.svg" id="effect-1" alt="">
                     <img src="./assets/effect-2.svg" id="effect-2" alt="">
                 </div>
                 <div class="right-2">
                     <span>about me</span>
                     <h2>I am available for <span>web development</span> projects</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ab tempore fugit exercitationem libero accusantium repudiandae unde tenetur, ducimus iusto praesentium minima eum culpa tempora dignissimos facilis quas nisi voluptatibus omnis cupiditate quos! Obcaecati cupiditate odit dolore fugit saepe nam corporis reprehenderit minus!</p>
+                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
                     <div>
                         <div>
                             <h3>280+</h3>
@@ -319,7 +324,7 @@
             <div class="container-6">
                 <div>
                     <span>testimonial</span>
-                    <h2>over <span>8000+</span> people trust me</h2>
+                    <h2>over <span>8,000+</span> people trust me</h2>
                 </div>
                 <div>
                     <img src="./assets/tesimonial-img-1.jpg" alt="">
@@ -399,12 +404,12 @@
             loop: true
         });
         window.addEventListener("scroll", () => {
-        const nav = document.querySelector("nav");
-        if (window.scrollY > 50) {
-            nav.classList.add("scrolled");
-        } else {
-            nav.classList.remove("scrolled");
-        }
+            const nav = document.querySelector("nav");
+            if (window.scrollY > 50) {
+                nav.classList.add("scrolled");
+            } else {
+                nav.classList.remove("scrolled");
+            }
         });
     </script>
 </body>
