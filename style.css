@@ -11,7 +11,7 @@ body {
     font-family: "Space Grotesk", sans-serif;
     font-weight: 400;
     background: linear-gradient(90deg, #07233b 1.67%, #041d34 39.95%, #04192d 58.24%, #040e18 80.28%, #050c16 101.48%);
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 nav {
@@ -123,6 +123,27 @@ main {
     right: 0;
     top: 0;
     width: 17px;
+}
+
+.menu {
+    background-color: #040c16;
+    padding: 10px 20px;
+    display: none;
+}
+
+.menu > ul > li {
+    padding: 8px 0px;
+    list-style-type: none;
+}
+
+.menu > ul > li > a {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
 }
 
 .main-container {
