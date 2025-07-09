@@ -1100,6 +1100,7 @@ footer {
 
     .card-2 {
         width: 216px;
+        height: 450px;
     }
 
     .row-card {
@@ -1113,7 +1114,7 @@ footer {
     .right-3-1 > :nth-child(1) {
         width: 231px;
         position: absolute;
-        bottom: -4452px;
+        bottom: -4107px;
     }
 
     .right-3-1 > :nth-child(2) {
@@ -1142,8 +1143,7 @@ footer {
 
     .right-3-1 > :nth-child(1) {
         width: 231px;
-        position: absolute;
-        bottom: -4480px;
+        bottom: -4107px;
     }
 
     .container-2 {
@@ -1195,10 +1195,8 @@ footer {
     .left-2 {
         display: flex;
         justify-content: center;
-    }
-
-    .left-2 > img {
         width: 100%;
+        height: 50%;
     }
 
     .right-2 {
@@ -1220,7 +1218,7 @@ footer {
 
     .container-4 > :last-child {
         grid-template-columns: 360px 360px;
-        grid-template-rows: 451px 451px;
+        grid-template-rows: 481px 481px;
         place-items: center;
     }
     
@@ -1273,6 +1271,20 @@ footer {
 
     .right-3-1 > :nth-child(2) > div > a {
         font-size: 22px;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .right > img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .left-2 > :first-child {
+        max-width: 100%;
+        max-height: auto;
     }
 }
 
@@ -1345,10 +1357,6 @@ footer {
         width: 100%;
     }
 
-    .left-2 {
-        height: fit-content;
-    }
-
     .left-2 > img {
         max-width: 100%;
         max-height: 100%;
@@ -1371,6 +1379,14 @@ footer {
         width: 85%;
     }
 
+    .container-5 > :first-child {
+        width: 100%;
+    }
+
+    .container-6 > :first-child {
+        width: 100%;
+    }
+
     .container-7 {
         width: 95%;
     }
@@ -1379,10 +1395,33 @@ footer {
         width: 100%;
         padding: 0px;
     }
+
+    .right-2 > div {
+        flex-wrap: wrap;
+    }
+
+    .right-2 > div > :nth-child(3) {
+        margin-left: 0px;
+        margin-top: 10px;
+        width: 113px;
+    }
 }
 
 @media (max-width: 400px) {
     .row-left, .row-right {
         width: 80%;
+    }
+
+    .right-2 > div  div {
+        width: 100% !important;
+    }
+
+    .right-2 > div > :nth-child(2) {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .right-3-1 > :nth-child(2) > div > a {
+        overflow-wrap: anywhere;
     }
 }
