@@ -15,12 +15,15 @@
         <nav>
             <div class="container">
                 <div><a>UZAIR</a></div>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div>                
+                <label for="check">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </label>
+                <input type="checkbox" name="check" id="check">
+                <div class="menu">                
                     <ul>
                         <li><a href="#">HOME</a></li>
                         <li><a href="#about">ABOUT ME</a></li>
@@ -31,15 +34,6 @@
                     <button><a target="_blank" href="https://www.linkedin.com/in/uzair-bin-asif-a6782529a/">LETS' TALK</a></button>
                 </div>
             </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#about">ABOUT ME</a></li>
-                    <li><a href="#projects">PROJECTS</a></li>
-                    <li><a href="#services">SERVICES</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            </div>
         </nav>
     </header>
     <main>
@@ -48,7 +42,7 @@
                 <div class="left">
                     <span>UZAIR BIN ASIF</span>
                     <h1>hay! i'm uzair</h1>
-                    <h2>i'm a de</h2>
+                    <h2>i'm a <br id="break">de</h2>
                     <span id="element"></span>
                     <p>I’m an 18 year old student of panaversity, GIAIC. I have the Ability to design mobile first Pixel Perfect Websites. Currently learning Agentic AI with OpenAI Agents SDK & modern Python at GIAIC.</p>
                     <div>
@@ -392,7 +386,7 @@
                             <textarea id="txt-area" placeholder="Your message *" rows="10"></textarea>
                         </div>
                         <button class="in-touch-btn send-msg-btn">
-                            <a>send message</a>
+                            <a target="_blank" href="https://www.linkedin.com/in/uzair-bin-asif-a6782529a/">send message</a>
                         </button>
                     </div>
                 </div>
